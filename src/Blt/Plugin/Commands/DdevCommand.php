@@ -127,7 +127,7 @@ class DdevCommand extends BltTasks {
         }
 
         // Re-init settings after old settings are removed..
-        $this->invokeCommand('recipes:behat');
+        $this->invokeCommand('recipes:behat:init');
       }
     }
   }
